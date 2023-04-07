@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+.buscador{
+    display: flex wrap;
+    justify-content:center;
+    align-content: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+input{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 13px;
+    border-radius: 25px;
+    height: 30px;
+    width: 590px;
+    border:solid;
+    border-color: rgba(0, 0, 0, 0.898);
+    padding-bottom: 5px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: medium;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.box-buscador{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom:20px;
+
+}
+.titulo-buscador{
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+}
